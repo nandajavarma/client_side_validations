@@ -104,7 +104,7 @@ module ClientSideValidations::ActionView::Helpers
 
     def client_side_form_settings(object, options)
       if options[:validate]
-        builder = options[:parent_builder]
+        builder = options[:builder]
 
         if options[:id]
           var_name = options[:id]
